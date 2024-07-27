@@ -68,7 +68,7 @@
 
         if (!response.ok)
         {
-          throw new Error('Network response was not ok');
+          throw new Error('Location not found - please check spelling!');
         }
 
         const data = await response.json();
